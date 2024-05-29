@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* fonts */
+
+.title-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* color */
+.text-warning {
+  color: #ffc10e !important;
+}
+
+.btn-warning {
+  background-color: #ffc30e !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-warning:hover {
+  box-shadow: #ffebafc2 0px 1px 10px;
+}
+
+.bg-color-badge {
+  background-color: transparent !important;
+}
+
+/* HEADER */
+
+/* navbar */
+
+.navbar .dropdown a {
+  font-size: 0.9rem;
+}
+
+.navbar .navbar-toggler-icon {
+  color: white;
+}
+
+.dropdown .dropdown-menu {
+  background-color: whitesmoke;
+  position: absolute;
+  left: -16px;
+  top: 45px;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  transition: all 0.2s ease;
+  color: #525252;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #e1e1e1;
+}
+
+#carousel-slider1 .carousel-item img {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .navbar .dropdown {
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .navbar .dropdown a {
+    font-size: 16px !important;
+  }
+}
+
+
+/* category-cards-section */
+
+.cards-section .category-cards {
+  height: 400px;
+  position: relative;
+  transition: transform 0.2s ease;
+  background-position: center;
+}
+
+.cards-section .category-cards:hover {
+  transform: translateY(-10px);
+}
+
+.border-line {
+  width: 100px;
+  border-bottom: 1px solid #ffc107;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.services {
+  color: #595656ad;
+}
+
+.category-cards h5 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.card-buttons {
+  transform: translateY(-20px);
+}
+
+.card-buttons button {
+  color: rgba(255, 255, 255, 0.853) !important;
+}
+
+#university-section .category-card1 {
+  background-image: url(img/university/ytu/1.jpg);
+}
+
+.category-card2 {
+  background-image: url(img/university/iu/1.jpg);
+}
+
+.category-card3 {
+  background-image: url(img/university/hu/1.jpg);
+}
+
+.category-card4 {
+  background-image: url(img/university/mu/1.jpg);
+}
+
+.category-card5 {
+  background-image: url(img/university/au/1.jpg);
+}
+
+
+/* Dresses-section / carousel */
+.cards {
+  width: 100%;
+  height: 450px !important;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#carousel-slider2 .cards-img1{
+  background-image: url(img/university/ytu/2.jpg);
+}
+
+#carousel-slider2 .cards-img2{
+  background-image: url(img/university/ytu/3.webp);
+}
+
+#carousel-slider2 .cards-img3{
+  background-image: url(img/university/ytu/4.jpg);
+}
+
+#carousel-slider2 .cards-img4{
+  background-image: url(img/university/ytu/5.webp);
+}
+
+.col {
+  padding: 10px;
+}
+
+/* Trousers-section */
+
+#carousel-slider3 .cards-img1{
+  background-image: url(img/university/iu/2.jpg);
+}
+
+#carousel-slider3 .cards-img2{
+  background-image: url(img/university/iu/3.jpg);
+}
+
+#carousel-slider3 .cards-img3{
+  background-image: url(img/university/iu/4.jpg);
+}
+
+#carousel-slider3 .cards-img4{
+  background-image: url(img/university/iu/5.webp);
+}
+
+/* hats-section */
+
+#carousel-slider4 .cards-img1{
+  background-image: url(img/university/hu/2.jpg);
+}
+
+#carousel-slider4 .cards-img2{
+  background-image: url(img/university/hu/3.jpg);
+}
+
+#carousel-slider4 .cards-img3{
+  background-image: url(img/university/hu/4.jpg);
+}
+
+#carousel-slider4 .cards-img4{
+  background-image: url(img/hats/s4.webp);
+}
+
+#carousel-slider4 .cards-img5{
+  background-image: url(img/hats/s5.webp);
+}
+
+#carousel-slider4 .cards-img6{
+  background-image: url(img/hats/s6.webp);
+}
+
+/* skirt-section */
+
+#carousel-slider5 .cards-img1{
+  background-image: url(img/university/mu/1.jpg);
+}
+
+#carousel-slider5 .cards-img2{
+  background-image: url(img/university/mu/2.jpg);
+}
+
+#carousel-slider5 .cards-img3{
+  background-image: url(img/university/mu/3.jpg);
+}
+
+#carousel-slider5 .cards-img4{
+  background-image: url(img/university/mu/4.jpg);
+}
+
+/* shirts-section */
+
+#carousel-slider6 .cards-img1{
+  background-image: url(img/university/au/2.jpg);
+}
+
+#carousel-slider6 .cards-img2{
+  background-image: url(img/university/au/3.jpg);
+}
+
+#carousel-slider6 .cards-img3{
+  background-image: url(img/university/au/4.jpg);
+}
+
+#carousel-slider6 .cards-img4{
+  background-image: url(img/university/au/5.jpg);
+}
+
+/* footer */
+
+#footer {
+  background-color: #151515;
+}
+
+
+#footer #our_services ul li {
+  transition: transform 0.3s ease-in-out;
+}
+
+#footer #our_services ul li:hover {
+  transform: translateX(5px);
+}
+
+/* back-to-top */
+
+#back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1030;
+}
+
+/* for the js code */
+
+#back-to-top-btn {
+  background-color: rgb(
+    240,
+    240,
+    240,
+    0
+  ); /* Opacity değerini istediğiniz gibi ayarlayabilirsiniz */
+  color: transparent;
+  transition: all 0.3s ease;
+}
+
+#back-to-top-btn.scrolled {
+  background-color: rgb(
+    255,
+    195,
+    14,
+    1
+  ); /* Opacity değerini istediğiniz gibi ayarlayabilirsiniz */
+  color: white;
+}
+
+/* wp icon */
+
+#wp-icon {
+  position: fixed;
+  left: 20px;
+  bottom: 10px;
+  z-index: 1030;
+}
+
+#wp-icon i {
+  font-size: 30px;
+  color: rgb(255, 195, 14, 1);
+}
+
+/* trips-details-sections */
+.trip-details-section p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .trip-details-section .iframe {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .trip-details-section .iframe {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .trip-details-section .iframe {
+    height: 400px;
+  }
+}
+
+
+.inner-content {
+  text-align: center;
+}
