@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Web projects">
+    <meta name="keywords" content="Travelling, Travel, Rent, Hotel, Car, Trip">
+    <meta name="author" content="Fatih Emre Ertekin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Store | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand text-dark fs-2 fw-bold title-font text-uppercase m-0" href="index.html">e-store<span
+                        class="text-warning">.</span></a>
+                <button class="navbar-toggler border-0" style="color: white;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars" style="color:black; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-3">
+                            <a class="nav-link text-dark" href="#">Log In</a>
+                        </li>
+                        <li class="nav-item pe-3">
+                            <a class="nav-link text-dark" href="#">Register</a>
+                        </li>
+                        <li class="nav-item dropdown border border-2 rounded-1 border-dark px-3">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu border-0 py-1">
+                                <li><a id="lang-tr" class="dropdown-item text-dark" href="#">Turkish</a></li>
+                                <li>
+                                    <hr class="dropdown-divider m-0">
+                                </li>
+                                <li><a id="lang-en" class="dropdown-item text-dark" href="#">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carousel-slider1" class="container carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="3500">
+            <div class="carousel-inner rounded ">
+                <div class="carousel-item active">
+                    <img src="img/carousel/c1.jpeg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/c2.jpeg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/c3.jpeg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/c4.jpeg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/c5.jpeg" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/c6.jpeg" class="w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- categories -->
+    <section id="categories-section" class="cards-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our categories</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-sm-3 row-cols-xl-4 g-4 pt-4 text-center">
+
+                <a href="categories/dresses.html">
+                    <div class="col">
+                        <div class="card category-cards category-card1 border-0 text-white">
+                            <h5 class="text-uppercase title-font">Dresses</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="categories/trousers.html">
+                    <div class="col">
+                        <div class="card category-cards category-card2 border-0 text-white">
+                            <h5 class="text-uppercase title-font">Trousers</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="categories/hats.html">
+                    <div class="col">
+                        <div class="card category-cards category-card3 border-0 text-white">
+                            <h5 class="text-uppercase title-font">hats</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="categories/skirts.html">
+                    <div class="col">
+                        <div class="card category-cards category-card4 border-0 text-white">
+                            <h5 class="text-uppercase title-font">skirts</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="categories/shirts.html">
+                    <div class="col">
+                        <div class="card category-cards category-card5 border-0 text-white">
+                            <h5 class="text-uppercase title-font">shirts</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="categories/shoes.html">
+                    <div class="col">
+                        <div class="card category-cards category-card6 border-0 text-white">
+                            <h5 class="text-uppercase title-font">shoes</h5>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- dresses -->
+    <section id="dresses-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our dresses</h1>
+            <div id="carousel-slider2" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/dresses/dress1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/dresses/dress2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/dresses/dress3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/dresses/dress4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/dresses/dress5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/dresses/dress6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">dresses</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- trousers -->
+    <section id="trousers-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our trousers</h1>
+            <div id="carousel-slider3" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3  px-2">
+                            <a href="products/trousers/trousers1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/trousers/trousers2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/trousers/trousers3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/trousers/trousers4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/trousers/trousers5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/trousers/trousers6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">pants</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider3"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider3"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- hats -->
+    <section id="hats-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our hats</h1>
+            <div id="carousel-slider4" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3  px-2">
+                            <a href="products/hats/hats1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/hats/hats2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/hats/hats3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/hats/hats4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/hats/hats5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/hats/hats6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">hats</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider4"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider4"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- skirts -->
+    <section id="skirts-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our skirts</h1>
+            <div id="carousel-slider5" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3  px-2">
+                            <a href="products/skirts/skirts1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/skirts/skirts2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/skirts/skirts3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/skirts/skirts4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/skirts/skirts5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/skirts/skirts6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">skirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider5"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider5"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- shirts -->
+    <section id="shirts-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our shirts</h1>
+            <div id="carousel-slider6" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3  px-2">
+                            <a href="products/shirts/shirt1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shirts/shirt2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shirts/shirt3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/shirts/shirt4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shirts/shirt5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shirts/shirt6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shirts</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider6"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider6"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- shoes -->
+    <section id="shoes-section" data-aos="fade-up" data-aos-duration="700">
+        <div class="container">
+            <div class="content d-flex">
+                <span class="services mt-5 text-uppercase">Services</span>
+                <span class="border-line"></span>
+            </div>
+            <h1 class="text-uppercase title-font">check our trousers</h1>
+            <div id="carousel-slider7" class="container carousel slide carousel-fade p-0" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-sm-3  px-2">
+                            <a href="products/shoes/shoes1.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img1 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shoes/shoes2.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img2 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shoes/shoes3.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img3 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-sm-3 px-2">
+                            <a href="products/shoes/shoes4.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img4 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shoes/shoes5.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img5 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="products/shoes/shoes6.html" class="text-decoration-none ">
+                                <div class="col">
+                                    <div
+                                        class="card cards cards-img6 text-white justify-content-center align-items-center ">
+                                        <h5 class="text-uppercase title-font ">shoes</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider7"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider7"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="text-light mt-5 pb-4">
+        <div class="footer-top p-5">
+            <div class="container">
+                <div class="row" data-aos="zoom-in" data-aos-duration="500">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                            <a class="navbar-brand text-light fs-2 fw-bold title-font text-uppercase m-0"
+                                href="#">E-Store<span class="text-warning">.</span></a>
+                            <p>
+                                Hırka-i Şerif, Fatih/İstanbul<br><br>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="our_services" class="col-lg-3 col-md-6 ps-lg-5 ms-lg-auto">
+                        <p class="fw-bold">Our Services</p>
+                        <ul class="p-0">
+                            <a href="#trips-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Dresses</li>
+                            </a>
+                            <a href="#hotels-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Trousers</li>
+                            </a>
+                            <a href="#transporters-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Hats</li>
+                            </a>
+                            <a href="#trips-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Skirts</li>
+                            </a>
+                            <a href="#hotels-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Shirts</li>
+                            </a>
+                            <a href="#transporters-section" class="text-decoration-none text-light">
+                                <li class="list-unstyled"><i class="bi bi-chevron-right text-warning"></i> Shoes
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 ms-lg-auto">
+                        <p class="fw-bold">Our Newsletter</p>
+                        <p>Subscribe to our newsletter and don't miss any news!</p>
+                        <form class="row g-0">
+                            <div class="col-9">
+                                <input class="form-control rounded-end-0 " type="email" name="email">
+                            </div>
+                            <div class="col-3">
+                                <input class="btn btn-outline-light rounded-start-0 " type="submit" value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="pt-5" data-aos="fade-up">
+                    &copy; Copyright <strong><span>E-Store</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="back-to-top">
+        <span>
+            <a id="back-to-top-btn" href="#carousel-slider1" class="btn btn-light border-0 rounded-1"><i
+                    class="bi bi-chevron-up"></i></a>
+        </span>
+    </div>
+
+    <div id="wp-icon">
+        <span>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </span>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        window.addEventListener('scroll', function () {
+            var navbar = document.getElementById('back-to-top-btn');
+            if (window.scrollY > 500) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
